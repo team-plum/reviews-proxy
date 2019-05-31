@@ -1,14 +1,22 @@
 .topcomponent {
-  margin: 10%;
-  display: block
+  width: 100%;
+  display: block;
 }
 
 .questions {
-  margin: 10%;
-  display: inline-block
+  width: 50%;
+  float:left;
+  margin-bottom: 50px;
+  margin-left: 50px
+}
+
+.orders {
+  width: 40%;
+  float:right;
 }
 
 .reviews {
-  margin: 10%;
-  display: block
+  width: 40%;
+  display: block;
+  float: left;
 }
