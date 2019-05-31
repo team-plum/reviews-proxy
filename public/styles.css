@@ -1,0 +1,330 @@
+p.review {
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+p.subtitle {
+  font-size: 21px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #333333
+}
+
+.sorter {
+  margin-left: 10px;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #D32323 !important;
+  border-color: #D32323 !important;
+}
+
+.photo_modal {
+  width: 100000px !important;
+  max-width: 90%;
+}
+
+p.carousel_caption {
+  background-color: #FFFFFF;
+  color: #000000;
+  opacity: .75
+}
+h3.carousel_caption {
+  background-color: #FFFFFF;
+  color: #000000;
+  opacity: .75
+}
+
+button.vote {
+  background-color: #FFFFFF;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  cursor: pointer;
+  border: 1px solid;
+  font-weight: bold;
+  text-align: center;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 14px;
+  line-height: 1.28571em;
+  padding: 8px 19px 9px;
+  border-radius: 3px;
+}
+
+.search {
+  width: 50%
+}
+.wrapper {
+  list-style: none;
+  width: 100%;
+  height: 90px;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+img.review {
+  height: 150px;
+  margin: 10px;
+}
+
+.unhovered {
+  transition: visibility .5s, opacity .5s;
+  visibility: hidden;
+  opacity: 0
+}
+.hovered {
+  transition: visibility .5s, opacity .5s;
+  visibility: visible;
+  opacity: 1
+}
+
+.invisible {
+  visibility: hidden;
+  opacity: 0
+}
+.visible {
+  visibility: visible;
+  opacity: 1
+}
+
+  /* use display:inline-flex to prevent whitespace issues. alternatively, you can put all the children of .rating-group on a single line */
+  .rating-group {
+    display: inline-flex;
+  }
+  
+  /* make hover effect work properly in IE */
+  .rating__icon {
+    pointer-events: none;
+  }
+  
+  /* hide radio inputs */
+  .rating__input {
+    position: absolute !important;
+    left: -9999px !important;
+  }
+  
+  /* hide 'none' input from screenreaders */
+  .rating__input--none {
+    display: none
+  }
+
+  /* set icon padding and size */
+  .rating__label {
+    cursor: pointer;
+    padding: 0 0.1em;
+    font-size: 2rem;
+  }
+  
+  /* set default star color */
+  .rating__icon--star {
+    color: orange;
+  }
+
+  /* if any input is checked, make its following siblings grey */
+  .rating__input:checked ~ .rating__label .rating__icon--star {
+    color: #ddd;
+  }
+  
+  /* make all stars orange on rating group hover */
+  .rating-group:hover .rating__label .rating__icon--star {
+    color: orange;
+  }
+
+  /* make hovered input's following siblings grey on hover */
+  .rating__input:hover ~ .rating__label .rating__icon--star {
+    color: #ddd;
+  }
+
+body {
+  padding: 1rem;
+  text-align: center;
+}
+
+.usericon {
+  color: #e06529;
+  font-size: 20px
+}
+
+.starbarlarge_empty {
+  color: #cccccc;
+  font-size: 30px;
+}
+.starbarlarge_full {
+  color: #ff9242;
+  font-size: 30px;
+}
+
+.zerostars {
+  color: #cccccc
+}
+.onestar {
+  color: #f2bd79
+}
+.twostars {
+  color: #fec011
+}
+.threestars {
+  color: #ff9242
+}
+.fourstars {
+  color: #f15c4f
+}
+.fivestars {
+  color: #d32323
+}
+
+
+.island {
+  width: 629px;
+  padding: 11px;
+  background: #f5f5f5;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: auto;
+  text-align: center;
+}
+
+a {
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #0073BB;
+  text-decoration: none;
+  padding: 3px 0px;
+  text-align: center
+}
+
+a:hover {
+  text-decoration: underline
+}
+
+img.user {
+  border-radius: 4px;
+  width: 60px;
+  height: 60px;
+}
+
+img.owner {
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+}
+
+img.review {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+img.carousel {
+  width: 100%;
+}
+
+h5 {
+  font-family: Helvetica, Arial, san-serif;
+  font-size: 12px;
+  color: #666666
+}
+
+.user {
+  width: 200px;
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #0073BB;
+}
+
+.user:hover {
+  text-decoration: underline
+}
+.user_location {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.user_stats {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: #666666;
+}
+
+a.hoverbox {
+  font-size: 12px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #0073BB;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 3px 0px
+}
+
+.hoverbox {
+  font-size: 18px;
+  color: #0073BB;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a.hoverbox:hover {
+  text-decoration: underline
+}
+
+.title_create {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #0073BB;
+}
+.title_create:hover {
+  text-decoration: underline;
+}
+
+.create {
+  font-size: 18px;
+  line-height: 1.33333em;
+  line-height: 1.44em;
+  border: 1px solid #e6e6e6;
+  outline: none;
+  padding: 10px;
+  resize: none;
+  width: 100%;
+  min-height: 258px;
+}
+
+input {
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 75%;
+  *width: 90%;
+  margin: 0 0 18px;
+  padding: 5px 9px;
+  background: #fff;
+  border: 1px solid #999;
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 1.28571em;
+  line-height: 1.29em;
+}
+
+select {
+  color: #666;
+}
+
+h2 {
+  font-size: 21px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #d32323
+}
+
+h3 {
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+}
