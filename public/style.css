@@ -1,0 +1,14 @@
+.topcomponent {
+  margin: 10%;
+  display: block
+}
+
+.questions {
+  margin: 10%;
+  display: inline-block
+}
+
+.reviews {
+  margin: 10%;
+  display: block
+}
